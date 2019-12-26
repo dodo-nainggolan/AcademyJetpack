@@ -1,20 +1,22 @@
 package com.dicoding.picodiploma.academy.data;
 
 public class CourseEntity {
-    
     private String courseId;
+
     private String title;
     private String description;
     private String deadline;
     private boolean bookmarked = false;
     private String imagePath;
 
-    public CourseEntity(String courseId, String title, String description, String deadline, boolean bookmarked, String imagePath) {
+    public CourseEntity(String courseId, String title, String description, String deadline, Boolean bookmarked, String imagePath) {
         this.courseId = courseId;
         this.title = title;
         this.description = description;
         this.deadline = deadline;
-        this.bookmarked = bookmarked;
+        if (bookmarked != null) {
+            this.bookmarked = bookmarked;
+        }
         this.imagePath = imagePath;
     }
 
@@ -65,5 +67,4 @@ public class CourseEntity {
     public void setImagePath(String imagePath) {
         this.imagePath = imagePath;
     }
-
 }

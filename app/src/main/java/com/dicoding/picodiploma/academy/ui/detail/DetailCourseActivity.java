@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.academy.detail;
+package com.dicoding.picodiploma.academy.ui.detail;
 
 import android.os.Bundle;
 

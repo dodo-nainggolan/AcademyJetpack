@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.academy.bookmark;
+package com.dicoding.picodiploma.academy.ui.academy;
 
 
 import android.os.Bundle;
@@ -15,10 +15,10 @@ import com.dicoding.picodiploma.academy.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BookmarkFragment extends Fragment {
+public class AcademyFragment extends Fragment {
 
 
-    public BookmarkFragment() {
+    public AcademyFragment() {
         // Required empty public constructor
     }
 
@@ -27,7 +27,7 @@ public class BookmarkFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_bookmark, container, false);
+        return inflater.inflate(R.layout.fragment_academy, container, false);
     }
 
 }

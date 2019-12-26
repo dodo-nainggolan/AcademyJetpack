@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.academy.home;
+package com.dicoding.picodiploma.academy.ui.home;
 
 import android.os.Bundle;
 import android.view.MenuItem;

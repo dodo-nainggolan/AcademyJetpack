@@ -2,28 +2,6 @@ package com.dicoding.picodiploma.academy.data;
 
 public class ModuleEntity {
     public ContentEntity contentEntity;
-    private String mModuleId;
-    private String mCourseId;
-    private String mTitle;
-    private Integer mPosition;
-    private boolean mRead = false;
-
-    public ModuleEntity(ContentEntity contentEntity, String mModuleId, String mCourseId, String mTitle, Integer mPosition, boolean mRead) {
-        this.contentEntity = contentEntity;
-        this.mModuleId = mModuleId;
-        this.mCourseId = mCourseId;
-        this.mTitle = mTitle;
-        this.mPosition = mPosition;
-        this.mRead = mRead;
-    }
-
-    public ContentEntity getContentEntity() {
-        return contentEntity;
-    }
-
-    public void setContentEntity(ContentEntity contentEntity) {
-        this.contentEntity = contentEntity;
-    }
 
     public String getmModuleId() {
         return mModuleId;
@@ -64,4 +42,23 @@ public class ModuleEntity {
     public void setmRead(boolean mRead) {
         this.mRead = mRead;
     }
+
+    private String mModuleId;
+    private String mCourseId;
+    private String mTitle;
+    private Integer mPosition;
+
+    public ModuleEntity(String mModuleId, String mCourseId, String mTitle, Integer mPosition, Boolean mRead) {
+        this.mModuleId = mModuleId;
+        this.mCourseId = mCourseId;
+        this.mTitle = mTitle;
+        this.mPosition = mPosition;
+        if (mRead != null){
+            this.mRead = mRead;
+        }
+    }
+
+    private boolean mRead = false;
+
+
 }

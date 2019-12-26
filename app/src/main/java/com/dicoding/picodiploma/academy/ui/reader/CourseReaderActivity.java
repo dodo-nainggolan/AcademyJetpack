@@ -1,4 +1,4 @@
-package com.dicoding.picodiploma.academy.reader;
+package com.dicoding.picodiploma.academy.ui.reader;
 
 import androidx.appcompat.app.AppCompatActivity;
 
