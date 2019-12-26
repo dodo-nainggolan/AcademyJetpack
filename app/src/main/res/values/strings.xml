@@ -15,4 +15,6 @@
     <string name="last_seen">Terakhir dilihat</string>
     <string name="message_undo">Batalkan menghapus item sebelumnya?</string>
     <string name="message_ok">OK</string>
+    <string name="title_home">home</string>
+    <string name="title_dashboard">dashboard</string>
 </resources>
